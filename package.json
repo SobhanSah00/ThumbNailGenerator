@@ -1,0 +1,15 @@
+{
+  "name": "mediplus-backend",
+  "version": "1.0.0",
+  "description": "A medical Backend Service which have all variety services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "keep",
+    "code"
+  ],
+  "author": "sobhan sahoo",
+  "license": "ISC"
+}
