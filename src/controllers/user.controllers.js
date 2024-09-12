@@ -5,7 +5,7 @@ import { User } from "../models/User/user.models.js"
 import userSchema from "../validation/user.validation.js"
 
 const registerUser = asyncHandeler(async (req,res) => {
-    
+    b
 })
 
 export {
