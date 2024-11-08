@@ -1,12 +1,13 @@
 const imageGenerationSchema = new mongoose.Schema(
     {
         userId: { 
-            type: mongoose.Schema.Types.ObjectId
-            , ref: 'User', required: true 
-            
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'User', 
+            required: true 
         },
         imageUrl: {
-             type: String, required: true 
+             type: String, 
+             required: true 
             
         },  //TODO : HERE ADD THE CLOUDINARY
         generatedAt: {
@@ -14,4 +15,5 @@ const imageGenerationSchema = new mongoose.Schema(
             
         },
   });
-  
+
+  export const ImageGenerationModel = mongoose.model("ImageGenerationModel", userSchema)  
