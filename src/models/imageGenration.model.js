@@ -1,4 +1,6 @@
-const imageGenerationSchema = new mongoose.Schema(
+import mongoose, {Schema} from "mongoose";
+
+const imageGenerationSchema = new Schema(
     {
         userId: { 
             type: mongoose.Schema.Types.ObjectId,
@@ -11,9 +13,10 @@ const imageGenerationSchema = new mongoose.Schema(
             
         },  //TODO : HERE ADD THE CLOUDINARY
         generatedAt: {
-             type: Date, default: Date.now 
+            type: Date,
+            default: Date.now 
             
         },
   });
 
-  export const ImageGenerationModel = mongoose.model("ImageGenerationModel", userSchema)  
+  export const ImageGenerationModel = mongoose.model("ImageGenerationModel", imageGenerationSchema)  
