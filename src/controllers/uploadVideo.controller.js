@@ -16,8 +16,8 @@ const uploadVideo = asyncHandler(async (req, res) => {
     if (!userId) {
         // Clean up the file if authentication fails
         if (videoPath) {
-            await fs.promises.unlink(videoPath).catch(console.error);
-        }
+            await fs.promises.unlink(videoPath).catch(console.error); 
+        } 
         throw new ApiError(401, "Unauthorized - User ID missing");
     }
 

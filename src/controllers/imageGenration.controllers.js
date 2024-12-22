@@ -13,7 +13,7 @@ const uploadTheMlDiagram = asyncHandler(async (req, res) => {
   //     throw new ApiError(400, "Invalid user ID");
   //   }
 
-  //   const user = await User.findById(userId);
+  //   const user = await User.findById(userId); 
   //   if (!user) {
   //     throw new ApiError(404, `User with ID ${userId} not found`);
   //   }

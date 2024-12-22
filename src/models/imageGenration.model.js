@@ -19,4 +19,4 @@ const imageGenerationSchema = new Schema(
         },
   });
 
-  export const ImageGenerationModel = mongoose.model("ImageGenerationModel", imageGenerationSchema)  
+  export const ImageGenerationModel = mongoose.model("ImageGenerationModel", imageGenerationSchema)   

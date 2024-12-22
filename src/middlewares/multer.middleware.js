@@ -19,7 +19,7 @@ const storage = multer.diskStorage({
   
 export const upload = multer({ 
     storage, 
-    //storage = storage also we write like this but we dont beacuse it is in es6 module 
+    //storage = storage also we write like this but we dont beacuse it is in es6 module  
 })
 
 // import multer from "multer";
