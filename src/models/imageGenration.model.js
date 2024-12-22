@@ -15,7 +15,7 @@ const imageGenerationSchema = new Schema(
         generatedAt: {
             type: Date,
             default: Date.now 
-            
+             
         },
   });
 
