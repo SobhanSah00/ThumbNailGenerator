@@ -34,6 +34,26 @@ const userSchema = new Schema(
             type: String,
             required: [true, 'Password is required']
         },
+        age : {
+            type: Number,
+            required: true
+        },
+        gender : {
+            type: String,
+            required: true
+        },
+        address : {
+            type: String,
+            required: true
+        },
+        resume : {
+            type: String,
+            required: true
+        },
+        skills : {
+            type: Array,
+            required: true
+        },
         refreshToken: {
             type: String
         },
