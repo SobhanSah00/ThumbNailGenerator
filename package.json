@@ -1,7 +1,7 @@
 {
   "name": "youtube_backend",
   "version": "1.0.0",
-  "description": "a fully youtube bakced",
+  "description": "a fully thumbnailgenerator backend ",
   "type": "module",
   "main": "index.js",
   "scripts": {
